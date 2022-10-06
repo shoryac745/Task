@@ -1,0 +1,254 @@
+.header-up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 200px;
+    background-color: #0d47a1;
+    width: 100%;
+    margin: 0px auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    color: #fff;
+
+}
+.header-up-right {
+    display: flex;
+}
+.header-up-right li{
+    list-style: none;
+    padding: 5px 8px;
+    position: relative;
+}
+.header-up-right li a{
+    color: #fff;
+}
+
+
+
+
+#navbar{
+    display: flex;
+    
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 80px;
+    /* background-color: #E3E6F3; */
+    /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06); */
+    z-index: 999;
+    margin: 0px auto;
+    position: static;
+    top: 0;
+    left: 0;
+}
+.left{
+    display: flex;
+    line-height: 0%;
+    align-items: center;
+    color: #0d47a1;
+    
+}
+
+#navbar li{
+    list-style: none;
+    padding: 0 10px;
+    position: relative;
+
+}
+#navbar li a{
+    text-decoration: none;
+    color: #0d47a1;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+
+#banner{
+    background: url(img/young-beautiful-woman-doctor-lab-coat-blue-background-suddenly-had-idea-points-her-finger-up.jpg);
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#banner h4 {
+    color: #0d47a1;
+}
+#banner h2 {
+    color: #004d40;
+    font-weight: bold;
+}
+#banner p {
+    color: #004d40;
+}
+#banner button{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ef6c00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    padding: 8px 20px;
+}
+#banner button:hover{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ef6c00;
+}
+.cards{
+    
+    display: flex;
+    margin: 6rem auto ;
+    
+}
+.row{
+}
+
+.card-title{
+    color: #0d47a1;
+    font-weight: bold;
+}
+.card-text{
+    color: gray;
+}
+.card img{
+
+    height: 150px;
+}
+.btn1{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #ef6c00;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s;
+    padding: 8px 20px;
+
+}
+.btn1 i{
+   
+    padding-left: 4px;
+    text-align: center;
+
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.first h4, .first h1{
+    color: #0d47a1;
+    font-weight: bold;
+    
+}
+.first p{
+    
+    color: gray;
+}
+.disc{
+    color: #0d47a1;
+}
+
+@media (max-width:1199px) {
+
+    
+#banner{
+    padding: 0px 20px;
+}
+
+}
+@media(max-width:1060px){
+    .header-up{
+        display: none;
+        
+    }
+    .nav{
+        justify-content: center;
+        width: max-content;
+       
+     }
+     #navbar li{
+
+        padding: 0 5px;
+    }
+    #navbar li a{
+        font-size: 14px;
+    }
+    .cards{
+        flex-shrink: initial;
+        flex-wrap: wrap;
+    }
+    
+    #banner{
+        width: 100%;
+    }
+}
+
+@media (max-width:414px) {
+    #banner .container{
+        
+        top: 85px;
+    position: relative;
+    right: 27px;
+    width: max-content;
+    }
+    #banner h4 {
+        font-size: 20px;
+    }
+    #banner h2 {
+        font-size: 25px;
+        color: #004d40;
+
+        font-weight: bold;
+    }
+    #banner p {
+        font-size: 12px;
+        color: #004d40;
+    }
+    #banner button{
+        font-size: 14px;
+        font-weight: 600;
+        background-color: #ef6c00;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        outline: none;
+        transition: 0.2s;
+        padding: 8px 20px;
+    }
+    .header-up{
+        display: none;
+    }
+    .nav{
+       justify-content: center;
+      
+    }
+    #navbar li{
+        padding: 0 3px;
+    }
+    #navbar li a{
+        font-size: 8px;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    
+}
